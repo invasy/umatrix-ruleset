@@ -14,3 +14,8 @@ Gamepedia
 		_ *.gamepedia.com script
 		_ cdm.cursecdn.com script
 		_ gamepedia.cursecdn.com *
+
+Quora
+	quora.com *
+		_ first-party script
+		_ *.quoracdn.net *
