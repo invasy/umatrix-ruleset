@@ -1,0 +1,16 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Custom ruleset recipes
+! Maintainer: Vasiliy Polyakov <invasy.v@gmail.com>
+!
+! Lines starting with character "!" are ignored.
+! Character "_" is an alias for "currently selected scope".
+! An empty line MUST be used to separate distinct ruleset recipes.
+!
+! Please contribute ruleset recipes for the benefit of all other users:
+! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
+
+Gamepedia
+	gamepedia.com *
+		_ *.gamepedia.com script
+		_ cdm.cursecdn.com script
+		_ gamepedia.cursecdn.com *
