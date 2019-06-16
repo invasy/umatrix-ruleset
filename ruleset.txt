@@ -16,12 +16,15 @@ Kaggle
 		_ kaggleusercontent.com *
 		_ kaggleusercontent.com frame
 		_ kaggleusercontent.com script
-		_ apis.google.com script
-		_ fonts.googleapis.com css
-		_ storage.googleapis.com image
+		! 3rd-party script CDNs
 		_ cdnjs.cloudflare.com script
 		_ cdn.mathjax.org script
 		_ cdn.plot.ly script
+		_ apis.google.com script
+		! Fonts and images
+		_ fonts.googleapis.com css
+		_ storage.googleapis.com image
+		_ i.imgur.com image
 
 2GIS
 	2gis.ru *
@@ -49,4 +52,3 @@ Gamepedia
 		_ *.gamepedia.com script
 		_ cdm.cursecdn.com script
 		_ gamepedia.cursecdn.com *
-
