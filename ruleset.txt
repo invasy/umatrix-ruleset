@@ -9,10 +9,26 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
+Kaggle
+	kaggle.com *
+		_ first-party *
+		_ first-party script
+		_ kaggleusercontent.com *
+		_ kaggleusercontent.com frame
+		_ kaggleusercontent.com script
+		_ apis.google.com script
+		_ fonts.googleapis.com css
+		_ storage.googleapis.com image
+		_ cdnjs.cloudflare.com script
+		_ cdn.mathjax.org script
+		_ cdn.plot.ly script
+
 2GIS
 	2gis.ru *
 		_ first-party *
+		_ first-party script
 		_ 2gis.com * allow
+		_ 2gis.com * script
 
 2GIS Widget as 3rd-party
 	* 2gis.ru
@@ -23,13 +39,14 @@
 		_ widgets.2gis.com frame
 		_ widgets.2gis.com script
 
+Quora
+	quora.com *
+		_ first-party script
+		_ *.quoracdn.net *
+
 Gamepedia
 	gamepedia.com *
 		_ *.gamepedia.com script
 		_ cdm.cursecdn.com script
 		_ gamepedia.cursecdn.com *
 
-Quora
-	quora.com *
-		_ first-party script
-		_ *.quoracdn.net *
