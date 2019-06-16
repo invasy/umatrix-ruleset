@@ -9,6 +9,66 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
+! Global CDN rules
+Globally whitelist Cloudflare CDNJS
+	* cdnjs.cloudflare.com
+		_ cdnjs.cloudflare.com script
+
+Globally whitelist jsDelivr CDN
+	* cdn.jsdelivr.net
+		_ cdn.jsdelivr.net script
+
+Globally whitelist jQuery CDN
+	* code.jquery.com
+		_ code.jquery.com script
+
+Globally whitelist MathJax CDN
+	* cdn.mathjax.org
+		_ cdn.mathjax.org script
+
+! Services
+Google
+	google.com *
+		_ first-party *
+		_ first-party script
+		_ gstatic.com *
+		_ gstatic.com script
+		_ googleapis.com *
+		_ googleapis.com script
+		_ googleusercontent.com *
+		_ googleusercontent.com frame
+		_ googleusercontent.com script
+
+Google.ru
+	google.ru *
+		_ first-party *
+		_ first-party script
+		_ google.com *
+		_ google.com frame
+		_ google.com script
+		_ gstatic.com *
+		_ gstatic.com script
+		_ googleapis.com *
+		_ googleapis.com script
+		_ googleusercontent.com *
+		_ googleusercontent.com frame
+		_ googleusercontent.com script
+
+Google.nl
+	google.nl *
+		_ first-party *
+		_ first-party script
+		_ google.com *
+		_ google.com frame
+		_ google.com script
+		_ gstatic.com *
+		_ gstatic.com script
+		_ googleapis.com *
+		_ googleapis.com script
+		_ googleusercontent.com *
+		_ googleusercontent.com frame
+		_ googleusercontent.com script
+
 Kaggle
 	kaggle.com *
 		_ first-party *
@@ -22,6 +82,7 @@ Kaggle
 		_ cdn.plot.ly script
 		_ apis.google.com script
 		! Fonts and images
+		_ fonts.gstatic.com css
 		_ fonts.googleapis.com css
 		_ storage.googleapis.com image
 		_ i.imgur.com image
