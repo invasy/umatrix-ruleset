@@ -9,6 +9,20 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
+2GIS
+	2gis.ru *
+		_ first-party *
+		_ 2gis.com * allow
+
+2GIS Widget as 3rd-party
+	* 2gis.ru
+		_ 2gis.ru *
+		_ catalog.api.2gis.ru script
+		_ maps.api.2gis.ru script
+		_ 2gis.com *
+		_ widgets.2gis.com frame
+		_ widgets.2gis.com script
+
 Gamepedia
 	gamepedia.com *
 		_ *.gamepedia.com script
