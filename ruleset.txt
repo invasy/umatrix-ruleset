@@ -72,7 +72,7 @@ Google.nl
 Youtube as 3rd-party
 	* youtube.com
 		_ youtube.com *
-        _ youtube.com frame
+		_ youtube.com frame
 		_ youtube.com script
 		_ i.ytimg.com image
 		_ googlevideo.com xhr
