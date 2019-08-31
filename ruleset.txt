@@ -69,6 +69,14 @@ Google.nl
 		_ googleusercontent.com frame
 		_ googleusercontent.com script
 
+Youtube as 3rd-party
+	* youtube.com
+		_ youtube.com *
+        _ youtube.com frame
+		_ youtube.com script
+		_ i.ytimg.com image
+		_ googlevideo.com xhr
+
 Kaggle
 	kaggle.com *
 		_ first-party *
