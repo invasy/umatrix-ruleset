@@ -75,7 +75,7 @@ Youtube as 3rd-party
 		_ youtube.com *
 		_ youtube.com frame
 		_ youtube.com script
-		_ i.ytimg.com image
+		_ ytimg.com image
 		_ googlevideo.com xhr
 
 Kaggle
