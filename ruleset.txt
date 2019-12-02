@@ -70,6 +70,14 @@ Google.nl
 		_ googleusercontent.com frame
 		_ googleusercontent.com script
 
+Google reCAPTCHA
+	* www.recaptcha.net
+		_ www.recaptcha.net script
+		_ www.google.com script
+		_ www.google.com xhr
+		_ www.google.com frame
+		_ www.gstatic.com script
+
 Youtube as 3rd-party
 	* youtube.com
 		_ youtube.com *
