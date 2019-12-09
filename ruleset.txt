@@ -86,6 +86,14 @@ Youtube as 3rd-party
 		_ ytimg.com image
 		_ googlevideo.com xhr
 
+Wikipedia
+	wikipedia.org *
+		_ first-party *
+		_ first-party script
+		_ wikimedia.org *
+		_ wikimedia.org script
+		_ wikimedia.org xhr
+
 Kaggle
 	kaggle.com *
 		_ first-party *
