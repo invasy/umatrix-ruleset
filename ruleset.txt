@@ -27,7 +27,7 @@ Globally whitelist MathJax CDN
 	* cdn.mathjax.org
 		* cdn.mathjax.org script
 
-! Services
+! Google services
 Google
 	google.com *
 		_ first-party *
@@ -86,6 +86,7 @@ Youtube as 3rd-party
 		_ ytimg.com image
 		_ googlevideo.com xhr
 
+! Wikipedia and Wikimedia projects
 Wikipedia
 	wikipedia.org *
 		_ first-party *
@@ -94,6 +95,7 @@ Wikipedia
 		_ wikimedia.org script
 		_ wikimedia.org xhr
 
+! Kaggle
 Kaggle
 	kaggle.com *
 		_ first-party *
@@ -112,6 +114,7 @@ Kaggle
 		_ storage.googleapis.com image
 		_ i.imgur.com image
 
+! 2GIS
 2GIS
 	2gis.ru *
 		_ first-party *
@@ -128,6 +131,7 @@ Kaggle
 		_ widgets.2gis.com frame
 		_ widgets.2gis.com script
 
+! Yandex services
 Yandex.Maps as 3rd party
 	* maps.yandex.net
 		_ maps.yandex.net image
