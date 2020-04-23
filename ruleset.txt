@@ -128,6 +128,12 @@ Kaggle
 		_ widgets.2gis.com frame
 		_ widgets.2gis.com script
 
+Yandex.Maps as 3rd party
+	* maps.yandex.net
+		_ maps.yandex.net image
+		_ maps.yandex.net script
+		_ api-maps.yandex.ru script
+
 Quora
 	quora.com *
 		_ first-party script
