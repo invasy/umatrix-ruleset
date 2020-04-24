@@ -27,6 +27,10 @@ Globally whitelist MathJax CDN
 	* cdn.mathjax.org
 		* cdn.mathjax.org script
 
+Globally whitelist UNPKG
+	* unpkg.com
+		* unpkg.com script
+
 ! Google services
 Google
 	google.com *
