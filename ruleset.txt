@@ -99,6 +99,18 @@ Wikipedia
 		_ wikimedia.org script
 		_ wikimedia.org xhr
 
+! GitHub
+OctoCaptcha as 3rd-party
+	* octocaptcha.com
+		_ octocaptcha.com frame allow
+		_ api.funcaptcha.com frame allow
+		_ api.funcaptcha.com script allow
+		_ api.funcaptcha.com xhr allow
+		_ cdn.arkoselabs.com script allow
+		_ cdn.arkoselabs.com xhr allow
+		_ d3jcvwdlexg1ul.cloudfront.net xhr allow
+		_ github.githubassets.com script allow
+
 ! Kaggle
 Kaggle
 	kaggle.com *
