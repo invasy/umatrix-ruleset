@@ -31,6 +31,21 @@ Globally whitelist UNPKG
 	* unpkg.com
 		* unpkg.com script
 
+! CAPTCHA
+Google reCAPTCHA as 3rd-party
+	* www.recaptcha.net
+		_ www.recaptcha.net script
+		_ www.google.com script
+		_ www.google.com xhr
+		_ www.google.com frame
+		_ www.gstatic.com script
+
+hCaptcha as 3rd-party
+	* hcaptcha.com
+		_ hcaptcha.com script
+		_ hcaptcha.com xhr
+		_ newassets.hcaptcha.com frame
+
 ! Google services
 Google
 	google.com *
@@ -73,14 +88,6 @@ Google.nl
 		_ googleusercontent.com *
 		_ googleusercontent.com frame
 		_ googleusercontent.com script
-
-Google reCAPTCHA
-	* www.recaptcha.net
-		_ www.recaptcha.net script
-		_ www.google.com script
-		_ www.google.com xhr
-		_ www.google.com frame
-		_ www.gstatic.com script
 
 Youtube as 3rd-party
 	* youtube.com
@@ -164,3 +171,6 @@ Gamepedia
 		_ *.gamepedia.com script
 		_ cdm.cursecdn.com script
 		_ gamepedia.cursecdn.com *
+
+! vim: set noet sw=4 ts=4:
+
