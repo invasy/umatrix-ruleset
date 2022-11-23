@@ -33,8 +33,7 @@ Globally whitelist UNPKG
 
 ! CAPTCHA
 Google reCAPTCHA as 3rd-party
-	* www.recaptcha.net
-		_ www.recaptcha.net script
+	* www.gstatic.com
 		_ www.google.com script
 		_ www.google.com xhr
 		_ www.google.com frame
