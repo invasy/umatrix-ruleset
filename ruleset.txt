@@ -31,7 +31,7 @@ Globally whitelist UNPKG
 	* unpkg.com
 		* unpkg.com script
 
-! CAPTCHA
+! CAPTCHA and challenges
 Google reCAPTCHA as 3rd-party
 	* www.gstatic.com
 		_ www.google.com script
@@ -44,6 +44,12 @@ hCaptcha as 3rd-party
 		_ hcaptcha.com script
 		_ hcaptcha.com xhr
 		_ newassets.hcaptcha.com frame
+
+Cloudflare Challenge
+	* challenge.clouflare.com
+		_ challenge.clouflare.com script
+		_ challenge.clouflare.com xhr
+		_ challenge.clouflare.com frame
 
 ! Google services
 Google
