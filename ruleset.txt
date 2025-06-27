@@ -1,6 +1,6 @@
 ! uMatrix: Ruleset recipes 1.0
 ! Title: Custom ruleset recipes
-! Maintainer: Vasiliy Polyakov <invasy.v@gmail.com>
+! Maintainer: Vasiliy Polyakov <umatrix@invasy.dev>
 !
 ! Lines starting with character "!" are ignored.
 ! Character "_" is an alias for "currently selected scope".
@@ -9,47 +9,46 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
-! Global CDN rules
-Globally whitelist CDNJS at Cloudflare
+! Global CDN
+Cloudflare CDNJS
 	* cdnjs.cloudflare.com
 		* cdnjs.cloudflare.com css
 		* cdnjs.cloudflare.com script
 
-Globally whitelist jsDelivr CDN
+jsDelivr CDN
 	* cdn.jsdelivr.net
 		* cdn.jsdelivr.net script
 
-Globally whitelist jQuery CDN
+jQuery CDN
 	* code.jquery.com
 		* code.jquery.com script
 
-Globally whitelist MathJax CDN
+MathJax CDN
 	* cdn.mathjax.org
 		* cdn.mathjax.org script
 
-Globally whitelist UNPKG
+UNPKG
 	* unpkg.com
 		* unpkg.com script
 
 ! CAPTCHA and challenges
 Google reCAPTCHA as 3rd-party
 	* www.gstatic.com
+		_ www.google.com *
 		_ www.google.com script
-		_ www.google.com xhr
 		_ www.google.com frame
 		_ www.gstatic.com script
 
 hCaptcha as 3rd-party
 	* hcaptcha.com
+		_ hcaptcha.com *
 		_ hcaptcha.com script
-		_ hcaptcha.com xhr
 		_ newassets.hcaptcha.com frame
 
-Cloudflare Challenge
-	* challenge.clouflare.com
-		_ challenge.clouflare.com script
-		_ challenge.clouflare.com xhr
-		_ challenge.clouflare.com frame
+Cloudflare Challenges as 3rd-party
+	* challenges.cloudflare.com
+		_ challenges.cloudflare.com *
+		_ challenges.cloudflare.com frame
 
 ! Google services
 Google
@@ -94,7 +93,7 @@ Google.nl
 		_ googleusercontent.com frame
 		_ googleusercontent.com script
 
-Youtube as 3rd-party
+YouTube as 3rd-party
 	* youtube.com
 		_ youtube.com *
 		_ youtube.com frame
@@ -114,14 +113,14 @@ Wikipedia
 ! GitHub
 OctoCaptcha as 3rd-party
 	* octocaptcha.com
-		_ octocaptcha.com frame allow
-		_ api.funcaptcha.com frame allow
-		_ api.funcaptcha.com script allow
-		_ api.funcaptcha.com xhr allow
-		_ cdn.arkoselabs.com script allow
-		_ cdn.arkoselabs.com xhr allow
-		_ d3jcvwdlexg1ul.cloudfront.net xhr allow
-		_ github.githubassets.com script allow
+		_ octocaptcha.com frame
+		_ api.funcaptcha.com frame
+		_ api.funcaptcha.com script
+		_ api.funcaptcha.com xhr
+		_ cdn.arkoselabs.com script
+		_ cdn.arkoselabs.com xhr
+		_ d3jcvwdlexg1ul.cloudfront.net xhr
+		_ github.githubassets.com script
 
 ! Kaggle
 Kaggle
@@ -147,8 +146,8 @@ Kaggle
 	2gis.ru *
 		_ first-party *
 		_ first-party script
-		_ 2gis.com * allow
-		_ 2gis.com * script
+		_ 2gis.com *
+		_ 2gis.com script
 
 2GIS Widget as 3rd-party
 	* 2gis.ru
@@ -177,5 +176,10 @@ Gamepedia
 		_ cdm.cursecdn.com script
 		_ gamepedia.cursecdn.com *
 
-! vim: set noet sw=4 ts=4:
+Tilda as 3rd-party
+	* tilda.ws
+		_ *.tilda.ws *
+		_ *.tildacdn.com *
+		_ stat.tildacdn.com *
 
+! vim: set noet sw=4 ts=4:
